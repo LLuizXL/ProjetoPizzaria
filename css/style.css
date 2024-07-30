@@ -166,9 +166,38 @@ header {
 #Cardápio img {
   padding: 36px 0;
 }
+#Cardápio div img {
+  padding: 0;
+}
 
+#Cardápio h2 {
+  color: #d03012;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 7px 0;
+}
+
+.btnCardapio {
+  text-decoration: none;
+  color: #fff;
+  background: #8daa3e;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border-bottom: 2px solid #6b7552;
+}
 /* #Cardápio div {
   width: 100%;
   display: flex;
   justify-content: space-between;
 } */
+
+#PromoPizzas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
