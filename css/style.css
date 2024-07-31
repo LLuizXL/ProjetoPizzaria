@@ -220,7 +220,19 @@ header {
   font-weight: 900;
 }
 
-#delivery .sec-menu{
+#delivery .sec-menu {
   justify-content: center;
   padding: 40px;
+}
+
+#icone {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 20px 0;
+}
+
+.itens {
+  max-width: 250px;
+  text-align: center;
 }
